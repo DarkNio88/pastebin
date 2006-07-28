@@ -3,6 +3,7 @@ header ('Content-Type: text/html; charset=utf-8');
 include 'geshi/geshi.php';
 include 'classes/class.bdd.php';
 include 'classes/class.date.php';
+
 function getfullURL() {
 	return 'http'.(($_SERVER['HTTPS']=='on')?'s':'').'://'.$_SERVER['HTTP_HOST'].(($_SERVER['SERVER_PORT']!='80')?':'.$_SERVER['SERVER_PORT']:'').$_SERVER['REQUEST_URI'];
 }
