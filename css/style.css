@@ -1,0 +1,185 @@
+
+body {
+	font-family: Verdana, Arial, sans-serif;
+	margin: 10px;
+	
+	background-color: #fcfcfc;
+	padding: 5px;
+	
+}
+h2 {
+	margin: .1em 0 .2em .5em;
+	border-bottom: 1px solid #b0b0b0;
+	color: #b0b0b0;
+	font-weight: normal;
+	font-size: 150%;
+}
+h3 {
+	margin: .1em 0 .2em .5em;
+	color: #b0b0b0;
+	font-weight: normal;
+	font-size: 120%;
+}
+
+
+#Load {
+	position:absolute;
+	width:150px;
+	margin-left:-75px;
+	margin-top:-75px;
+	left:50%;
+	top:50%;
+	background-image: url(../img/bg.gif);
+	padding: 5px;
+	border: 5px solid #e0e0e0;
+	font-weight:bold;
+	font-size:50%;
+}
+#Load div {
+	background-image: url(../img/progressbar_short.gif);
+	text-align:right;
+}
+#SubmitCodeBorder {
+	position:absolute;
+	width:33%;
+	background-image: url(../img/bg.gif);
+	padding: 5px;
+	border: 2px solid #e0e0e0;
+}
+#SubmitCode {
+	width:100%;
+	background-color: #fcfcfc;
+}
+#source {
+	width:98%;
+	height:300px;
+}
+#language {
+	width:98%;
+}
+#submit {
+	margin-top:10px;
+
+}
+#source,#submit,#language,input {
+	border: 1px solid #b0b0b0;
+	font-size: 90%;
+	color: #333;
+}
+.head,.foot {
+	background-image: url(../img/bg.gif);
+	padding-left: 5px;
+	border: 5px solid #e0e0e0;
+	font-weight:bold;
+	font-size:70%;
+}
+
+#ParsedCode div ol {
+	border: 5px solid #e0e0e0;
+	border-bottom:0;
+	border-top:0;
+	margin-top:0;
+	padding-top:0;
+	margin-bottom:0;
+	padding-bottom:0;
+	font-family:Courier New, Courier, monospace;
+}
+* html #ParsedCode div ol {
+	border-left:0;
+}
+.head {
+	border-bottom:0;
+}
+.foot {
+	border-top:0;
+}
+a {
+	color:#000;
+	text-decoration:none;
+	border-top:1px solid #e0e0e0;
+	border-left:1px solid #e0e0e0;
+	border-bottom:1px solid #f0f0f0;
+	border-right:1px solid #f0f0f0;
+}
+a:hover {
+	background-image: url(../img/bg.gif);
+	border-bottom:1px solid #e0e0e0;
+	border-right:1px solid #e0e0e0;
+	border-top:1px solid #f0f0f0;
+	border-left:1px solid #f0f0f0;
+}
+ol a {
+	border:0;
+	text-decoration:underline;
+}
+ol a:hover {
+	background:#eee4bd;
+	border:0;
+}
+.linkCode {
+	display:block;
+	float:left;
+	width:190px;
+	margin-right:5px;
+	background-image:url(../img/buttonshadow.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+}
+.linkCode:hover {
+	background-repeat:repeat;
+}
+img {
+	border:0;
+}
+a img {
+	width:36px;
+	height:36px;
+}
+#closeSource img {
+	width:auto;
+	height:auto;
+}
+.linkCode span {
+	vertical-align:middle;
+}
+.linkCode img {
+	vertical-align:middle;
+}
+#menu {
+	height:38px;
+	border-bottom:2px solid #f0f0f0;
+	margin-bottom:5px;
+	padding-bottom:5px;
+}
+#closeSource {
+	border:0;
+	padding:0;
+	margin:0;
+	position:absolute;
+	left:100%;
+	margin-left:-21px;
+	margin-top:-8px;
+}
+#closeSource:hover {
+	border:0;
+	background-image: url();
+}
+#numcode {
+	width:40px;
+}
+#showCode {
+	width:240px;
+}
+#showCode input {
+	float:right;
+	margin-top:-27px;
+}
+form {
+	height:100%;
+}
+#wikistuce {
+	background-color: #f0f0f0;
+	font-size:75%;
+	font-weight:bold;
+	border: 2px solid #e0e0e0;
+}
